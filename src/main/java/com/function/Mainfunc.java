@@ -49,8 +49,8 @@ public class Mainfunc {
     public static void asyncClient() {
         long startTime = new Date().getTime();
         CosmosAsyncClient cosmosClient = new CosmosClientBuilder()
-            .endpoint("https://vin-subscriptions.documents.azure.com:443/vin-subscriptions")
-            .key("lmJL5NyOB2yvWC36SrmWYNlhk9EAIQgnfwOwLYbMITaIHnEAqKRTXi7UlteEtN3G0XqW8ykBLeK80KdJElFwag==")
+            .endpoint("https://dns:443/vin-subscriptions")
+            .key("test==")
             .consistencyLevel(ConsistencyLevel.CONSISTENT_PREFIX)
             .preferredRegions(Arrays.asList("East US"))
             .directMode()
