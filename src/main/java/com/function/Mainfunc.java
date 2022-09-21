@@ -41,7 +41,6 @@ import com.microsoft.azure.functions.ExecutionContext;
 public class Mainfunc {
 
     public static void main(String[] args) {
-       // CosmosClient.CreateAndInitializeAsync("AccountEndpoint=https://vin-subscriptions.documents.azure.com:443/;AccountKey=lmJL5NyOB2yvWC36SrmWYNlhk9EAIQgnfwOwLYbMITaIHnEAqKRTXi7UlteEtN3G0XqW8ykBLeK80KdJElFwag==;");
        asyncClient();
     }
 
